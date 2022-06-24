@@ -48,18 +48,24 @@ class Stack:
         """
         return len(self.items)
 
+    def __str__(self):
+        return f"{self.items}"
 
-s = Stack()
-print()
-print("is empty", s.is_empty())
-s.push(4)
-s.push("dog")
-print()
-print("peek", s.peek())
-s.push(True)
-print("size", s.size())
-print("is empty", s.is_empty())
-s.push(8.4)
-print("pop", s.pop())
-print("pop", s.pop())
-print("size", s.size())
+# stack = Stack()
+
+# print()
+# print("is empty", stack.is_empty())
+# stack.push(4)
+# stack.push("dog")
+# print()
+# print("peek", stack.peek())
+# stack.push(True)
+# print("size", stack.size())
+# print("is empty", stack.is_empty())
+# stack.push(8.4)
+# print("pop", stack.pop())
+# print("pop", stack.pop())
+# print("size", stack.size())
+
+# print()
+# print("stack items", stack)
