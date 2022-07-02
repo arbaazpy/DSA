@@ -40,7 +40,7 @@ class Queue:
         It needs no parameters and returns an integer.
 
         Returns:
-            int: size of the stack.
+            int: size of the queue.
         """
         return len(self.items)
 
