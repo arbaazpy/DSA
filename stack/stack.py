@@ -3,6 +3,7 @@
 class Stack:
     """
     Create Stack data type.
+    https://leetcode.com/problems/implement-stack-using-queues/
     """
 
     def __init__(self):

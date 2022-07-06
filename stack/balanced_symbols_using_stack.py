@@ -4,6 +4,7 @@ from stack import Stack
 def balanced_symbols(symbols):
     """Checks if a string of symbols is balanced or not.
     Balanced symbols means that each opening symbol has a corresponding closing symbol and the pairs of symbols are properly nested.
+    https://leetcode.com/problems/valid-parentheses/submissions/
 
     Args:
         symbols (str): string of symbols.
