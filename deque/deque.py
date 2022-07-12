@@ -11,7 +11,7 @@ class Deque:
     def add_rear(self, item):
         self.items.insert(0,item)
 
-    def remove_front(self, item):
+    def remove_front(self):
         return self.items.pop()
 
     def remove_rear(self):
